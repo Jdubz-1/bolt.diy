@@ -114,7 +114,7 @@ export default defineConfig((config) => {
       },
     },
     resolve: {
-      alias: {ffer
+      alias: {
         buffer: 'vite-plugin-node-polyfills/polyfills/bu',
       },
     },
