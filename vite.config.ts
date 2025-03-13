@@ -92,6 +92,9 @@ export default defineConfig((config) => {
       // Define global values
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
     },
+    server: {
+      allowedHosts: ["anythingllm-bolt-diy.uvwbse.easypanel.host"]
+    },
     build: {
       target: 'esnext',
       rollupOptions: {
@@ -111,8 +114,8 @@ export default defineConfig((config) => {
       },
     },
     resolve: {
-      alias: {
-        buffer: 'vite-plugin-node-polyfills/polyfills/buffer',
+      alias: {ffer
+        buffer: 'vite-plugin-node-polyfills/polyfills/bu',
       },
     },
     plugins: [
